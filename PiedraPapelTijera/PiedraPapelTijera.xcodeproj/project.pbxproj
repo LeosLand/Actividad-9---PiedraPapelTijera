@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3BDAF6C204F6CEA0052E73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDAF6B204F6CEA0052E73E /* AppDelegate.swift */; };
+		F3BDAF6E204F6CEA0052E73E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDAF6D204F6CEA0052E73E /* ViewController.swift */; };
+		F3BDAF71204F6CEA0052E73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BDAF6F204F6CEA0052E73E /* Main.storyboard */; };
+		F3BDAF73204F6CEA0052E73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BDAF72204F6CEA0052E73E /* Assets.xcassets */; };
+		F3BDAF76204F6CEA0052E73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BDAF74204F6CEA0052E73E /* LaunchScreen.storyboard */; };
+		F3BDAF81204F6CEA0052E73E /* PiedraPapelTijeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDAF80204F6CEA0052E73E /* PiedraPapelTijeraTests.swift */; };
+		F3BDAF8C204F6CEA0052E73E /* PiedraPapelTijeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDAF8B204F6CEA0052E73E /* PiedraPapelTijeraUITests.swift */; };
+		F3BDAF9A204F7FAA0052E73E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDAF99204F7FAA0052E73E /* ViewController2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BDAF7D204F6CEA0052E73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BDAF60204F6CEA0052E73E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BDAF67204F6CEA0052E73E;
+			remoteInfo = PiedraPapelTijera;
+		};
+		F3BDAF88204F6CEA0052E73E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BDAF60204F6CEA0052E73E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BDAF67204F6CEA0052E73E;
+			remoteInfo = PiedraPapelTijera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3BDAF68204F6CEA0052E73E /* PiedraPapelTijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiedraPapelTijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BDAF6B204F6CEA0052E73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3BDAF6D204F6CEA0052E73E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3BDAF70204F6CEA0052E73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3BDAF72204F6CEA0052E73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BDAF75204F6CEA0052E73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BDAF77204F6CEA0052E73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BDAF7C204F6CEA0052E73E /* PiedraPapelTijeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiedraPapelTijeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BDAF80204F6CEA0052E73E /* PiedraPapelTijeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelTijeraTests.swift; sourceTree = "<group>"; };
+		F3BDAF82204F6CEA0052E73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BDAF87204F6CEA0052E73E /* PiedraPapelTijeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiedraPapelTijeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BDAF8B204F6CEA0052E73E /* PiedraPapelTijeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelTijeraUITests.swift; sourceTree = "<group>"; };
+		F3BDAF8D204F6CEA0052E73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BDAF99204F7FAA0052E73E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BDAF65204F6CEA0052E73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF79204F6CEA0052E73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF84204F6CEA0052E73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3BDAF5F204F6CEA0052E73E = {
+			isa = PBXGroup;
+			children = (
+				F3BDAF6A204F6CEA0052E73E /* PiedraPapelTijera */,
+				F3BDAF7F204F6CEA0052E73E /* PiedraPapelTijeraTests */,
+				F3BDAF8A204F6CEA0052E73E /* PiedraPapelTijeraUITests */,
+				F3BDAF69204F6CEA0052E73E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BDAF69204F6CEA0052E73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDAF68204F6CEA0052E73E /* PiedraPapelTijera.app */,
+				F3BDAF7C204F6CEA0052E73E /* PiedraPapelTijeraTests.xctest */,
+				F3BDAF87204F6CEA0052E73E /* PiedraPapelTijeraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BDAF6A204F6CEA0052E73E /* PiedraPapelTijera */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDAF6B204F6CEA0052E73E /* AppDelegate.swift */,
+				F3BDAF6D204F6CEA0052E73E /* ViewController.swift */,
+				F3BDAF99204F7FAA0052E73E /* ViewController2.swift */,
+				F3BDAF6F204F6CEA0052E73E /* Main.storyboard */,
+				F3BDAF72204F6CEA0052E73E /* Assets.xcassets */,
+				F3BDAF74204F6CEA0052E73E /* LaunchScreen.storyboard */,
+				F3BDAF77204F6CEA0052E73E /* Info.plist */,
+			);
+			path = PiedraPapelTijera;
+			sourceTree = "<group>";
+		};
+		F3BDAF7F204F6CEA0052E73E /* PiedraPapelTijeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDAF80204F6CEA0052E73E /* PiedraPapelTijeraTests.swift */,
+				F3BDAF82204F6CEA0052E73E /* Info.plist */,
+			);
+			path = PiedraPapelTijeraTests;
+			sourceTree = "<group>";
+		};
+		F3BDAF8A204F6CEA0052E73E /* PiedraPapelTijeraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BDAF8B204F6CEA0052E73E /* PiedraPapelTijeraUITests.swift */,
+				F3BDAF8D204F6CEA0052E73E /* Info.plist */,
+			);
+			path = PiedraPapelTijeraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BDAF67204F6CEA0052E73E /* PiedraPapelTijera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BDAF90204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijera" */;
+			buildPhases = (
+				F3BDAF64204F6CEA0052E73E /* Sources */,
+				F3BDAF65204F6CEA0052E73E /* Frameworks */,
+				F3BDAF66204F6CEA0052E73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiedraPapelTijera;
+			productName = PiedraPapelTijera;
+			productReference = F3BDAF68204F6CEA0052E73E /* PiedraPapelTijera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3BDAF7B204F6CEA0052E73E /* PiedraPapelTijeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BDAF93204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraTests" */;
+			buildPhases = (
+				F3BDAF78204F6CEA0052E73E /* Sources */,
+				F3BDAF79204F6CEA0052E73E /* Frameworks */,
+				F3BDAF7A204F6CEA0052E73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BDAF7E204F6CEA0052E73E /* PBXTargetDependency */,
+			);
+			name = PiedraPapelTijeraTests;
+			productName = PiedraPapelTijeraTests;
+			productReference = F3BDAF7C204F6CEA0052E73E /* PiedraPapelTijeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3BDAF86204F6CEA0052E73E /* PiedraPapelTijeraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BDAF96204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraUITests" */;
+			buildPhases = (
+				F3BDAF83204F6CEA0052E73E /* Sources */,
+				F3BDAF84204F6CEA0052E73E /* Frameworks */,
+				F3BDAF85204F6CEA0052E73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BDAF89204F6CEA0052E73E /* PBXTargetDependency */,
+			);
+			name = PiedraPapelTijeraUITests;
+			productName = PiedraPapelTijeraUITests;
+			productReference = F3BDAF87204F6CEA0052E73E /* PiedraPapelTijeraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BDAF60204F6CEA0052E73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alumno IDS";
+				TargetAttributes = {
+					F3BDAF67204F6CEA0052E73E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F3BDAF7B204F6CEA0052E73E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3BDAF67204F6CEA0052E73E;
+					};
+					F3BDAF86204F6CEA0052E73E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3BDAF67204F6CEA0052E73E;
+					};
+				};
+			};
+			buildConfigurationList = F3BDAF63204F6CEA0052E73E /* Build configuration list for PBXProject "PiedraPapelTijera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BDAF5F204F6CEA0052E73E;
+			productRefGroup = F3BDAF69204F6CEA0052E73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BDAF67204F6CEA0052E73E /* PiedraPapelTijera */,
+				F3BDAF7B204F6CEA0052E73E /* PiedraPapelTijeraTests */,
+				F3BDAF86204F6CEA0052E73E /* PiedraPapelTijeraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BDAF66204F6CEA0052E73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BDAF76204F6CEA0052E73E /* LaunchScreen.storyboard in Resources */,
+				F3BDAF73204F6CEA0052E73E /* Assets.xcassets in Resources */,
+				F3BDAF71204F6CEA0052E73E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF7A204F6CEA0052E73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF85204F6CEA0052E73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BDAF64204F6CEA0052E73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BDAF6E204F6CEA0052E73E /* ViewController.swift in Sources */,
+				F3BDAF6C204F6CEA0052E73E /* AppDelegate.swift in Sources */,
+				F3BDAF9A204F7FAA0052E73E /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF78204F6CEA0052E73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BDAF81204F6CEA0052E73E /* PiedraPapelTijeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BDAF83204F6CEA0052E73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BDAF8C204F6CEA0052E73E /* PiedraPapelTijeraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BDAF7E204F6CEA0052E73E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BDAF67204F6CEA0052E73E /* PiedraPapelTijera */;
+			targetProxy = F3BDAF7D204F6CEA0052E73E /* PBXContainerItemProxy */;
+		};
+		F3BDAF89204F6CEA0052E73E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BDAF67204F6CEA0052E73E /* PiedraPapelTijera */;
+			targetProxy = F3BDAF88204F6CEA0052E73E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3BDAF6F204F6CEA0052E73E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BDAF70204F6CEA0052E73E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3BDAF74204F6CEA0052E73E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BDAF75204F6CEA0052E73E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BDAF8E204F6CEA0052E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3BDAF8F204F6CEA0052E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BDAF91204F6CEA0052E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiedraPapelTijera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3BDAF92204F6CEA0052E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiedraPapelTijera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3BDAF94204F6CEA0052E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiedraPapelTijeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijeraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiedraPapelTijera.app/PiedraPapelTijera";
+			};
+			name = Debug;
+		};
+		F3BDAF95204F6CEA0052E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiedraPapelTijeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijeraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiedraPapelTijera.app/PiedraPapelTijera";
+			};
+			name = Release;
+		};
+		F3BDAF97204F6CEA0052E73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PiedraPapelTijeraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijeraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiedraPapelTijera;
+			};
+			name = Debug;
+		};
+		F3BDAF98204F6CEA0052E73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PiedraPapelTijeraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Leo-s.PiedraPapelTijeraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PiedraPapelTijera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BDAF63204F6CEA0052E73E /* Build configuration list for PBXProject "PiedraPapelTijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BDAF8E204F6CEA0052E73E /* Debug */,
+				F3BDAF8F204F6CEA0052E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BDAF90204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BDAF91204F6CEA0052E73E /* Debug */,
+				F3BDAF92204F6CEA0052E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3BDAF93204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BDAF94204F6CEA0052E73E /* Debug */,
+				F3BDAF95204F6CEA0052E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3BDAF96204F6CEA0052E73E /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BDAF97204F6CEA0052E73E /* Debug */,
+				F3BDAF98204F6CEA0052E73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BDAF60204F6CEA0052E73E /* Project object */;
+}
